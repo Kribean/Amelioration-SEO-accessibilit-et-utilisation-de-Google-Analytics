@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -771,15 +771,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B8440F;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B8440F;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +797,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #B8440F!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -822,8 +822,15 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
+
+/*ajout d un modificateur pour les img par Bruno R*/
+.img--resize{
+    width:100%;
+    height: auto;
+}
+/*FIN ajout d un modificateur pour les img par Bruno R*/
 
 @media (max-width: 1024px) {
     .bloc {
